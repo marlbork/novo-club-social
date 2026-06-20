@@ -65,9 +65,15 @@ a {
   font-weight: 700;
 }
 
+.language-switch img {
+  width: 28px;
+  height: 18px;
+  object-fit: cover;
+  display: block;
+}
+
 .language-switch a[aria-current="page"] {
-  background: var(--white);
-  color: var(--blue);
+  background: transparent;
 }
 
 .brand {
